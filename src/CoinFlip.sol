@@ -34,6 +34,7 @@ contract CoinFlip {
     /// @notice Flip a coin. Send ETH with this call.
     function flip() external payable {
         if (msg.value < MIN_BET) revert BetTooLow();
+
         if (msg.value > MAX_BET) revert BetTooHigh();
         if (address(this).balance < msg.value) revert InsufficientBalance();
 
