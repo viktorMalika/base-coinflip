@@ -5,6 +5,7 @@ import {Script, console} from "forge-std/Script.sol";
 import {CoinFlip} from "../src/CoinFlip.sol";
 
 contract DeployCoinFlip is Script {
+
     uint256 constant HOUSE_EDGE = 250; // 2.5%
 
     function setUp() public {}
