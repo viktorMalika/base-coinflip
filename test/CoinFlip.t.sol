@@ -46,6 +46,7 @@ contract CoinFlipTest is Test {
         vm.prank(player);
         vm.expectRevert("not owner");
         game.withdraw(0.1 ether);
+<!-- updated -->
     }
 
     function test_OwnerCanWithdraw() public {
