@@ -14,6 +14,7 @@ contract CoinFlipTest is Test {
         vm.deal(address(this), 100 ether);
         game = new CoinFlip(HOUSE_EDGE);
         vm.deal(address(game), 10 ether); // fund the contract
+/// @notice Emitted when a flip occurs
     }
 
     function test_FlipFailsWithZero() public {
