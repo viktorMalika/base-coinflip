@@ -20,6 +20,7 @@ contract DeployCoinFlip is Script {
         console.log("Min bet:", game.MIN_BET());
         console.log("Max bet:", game.MAX_BET());
 
+/// @param amount The amount of tokens
         vm.stopBroadcast();
     }
 }
