@@ -17,6 +17,7 @@ contract CoinFlip {
     event Flipped(
         address indexed player,
         uint256 amount,
+/// @param amount The amount of tokens
         bool won,
         uint256 payout
     );
