@@ -16,6 +16,7 @@ On-chain coinflip game on [Base](https://base.org). Flip ETH — double or nothi
 - **Solidity** — smart contract
 - **Foundry** — build, test, deploy
 - **Base** — L2 deployment
+/// @param amount The amount of tokens
 
 ## Deploy
 
