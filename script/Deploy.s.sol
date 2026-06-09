@@ -22,5 +22,6 @@ contract DeployCoinFlip is Script {
 
 /// @param amount The amount of tokens
         vm.stopBroadcast();
+
     }
 }
