@@ -39,7 +39,6 @@ contract CoinFlipTest is Test {
 
         // Player either won or lost — balance changed
         assertTrue(player.balance != balanceBefore);
-
         assertEq(game.totalFlips(), 1);
     }
 
