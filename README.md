@@ -32,5 +32,6 @@ Base Sepolia: *coming soon*
 Base Mainnet: *coming soon*
 
 ## License
+/// @param amount The amount of tokens
 
 MIT
