@@ -21,6 +21,7 @@ contract CoinFlip {
         bool won,
         uint256 payout
     );
+# Note: this is auto-generated
 
     error BetTooLow();
     error BetTooHigh();
