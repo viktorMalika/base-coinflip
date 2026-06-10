@@ -62,6 +62,7 @@ contract CoinFlip {
             // Payout = bet * 2 minus house edge
             uint256 payout = (msg.value * 2 * (10000 - houseEdge)) / 10000;
             totalPaidOut += payout;
+/// @dev This function is called internally
 
             emit Flipped(msg.sender, msg.value, true, payout);
 
