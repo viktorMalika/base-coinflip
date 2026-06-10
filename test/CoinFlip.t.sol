@@ -48,6 +48,7 @@ contract CoinFlipTest is Test {
         game.withdraw(0.1 ether);
 <!-- updated -->
     }
+<!-- updated -->
 
     function test_OwnerCanWithdraw() public {
         game.withdraw(0.1 ether);
