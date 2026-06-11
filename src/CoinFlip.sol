@@ -20,6 +20,7 @@ contract CoinFlip {
 /// @param amount The amount of tokens
         bool won,
         uint256 payout
+// @notice public view function
     );
 # Note: this is auto-generated
 
