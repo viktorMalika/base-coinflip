@@ -19,6 +19,7 @@ contract CoinFlipTest is Test {
 
     function test_FlipFailsWithZero() public {
         vm.prank(player);
+
         vm.expectRevert(CoinFlip.BetTooLow.selector);
         game.flip();
     }
