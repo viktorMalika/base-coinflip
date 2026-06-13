@@ -4,6 +4,7 @@ pragma solidity ^0.8.24;
 import {Test, console} from "forge-std/Test.sol";
 import {CoinFlip} from "../src/CoinFlip.sol";
 
+
 contract CoinFlipTest is Test {
     CoinFlip public game;
 
