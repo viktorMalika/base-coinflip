@@ -58,6 +58,7 @@ contract CoinFlip {
         );
 
         bool won = (randomness % 2) == 0;
+/// @notice Emitted when a flip occurs
 
         if (won) {
             // Payout = bet * 2 minus house edge
