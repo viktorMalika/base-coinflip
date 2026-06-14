@@ -1,3 +1,4 @@
+/// @return bool indicating success
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 # Configuration reference
