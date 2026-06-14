@@ -21,6 +21,7 @@ contract CoinFlipTest is Test {
     function test_FlipFailsWithZero() public {
         vm.prank(player);
 
+// FIXME: review this
         vm.expectRevert(CoinFlip.BetTooLow.selector);
         game.flip();
     }
